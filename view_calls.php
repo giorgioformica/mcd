@@ -44,7 +44,7 @@ add_action( 'wp_ajax_renderModule', 'render_module_callback' );
 
 
 
-function mcdPlanningStandard_callback()
+function mcdPlanningStandard_callback( )
 {  
 	global $wpdb;
 	$day_names=["lunedì","martedì","mercoledì","giovedì","venerdì","sabato","domenica"];
